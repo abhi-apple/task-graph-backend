@@ -8,7 +8,7 @@ import teamData from '../data/team.json';
 import acvRange from '../data/acv-range.json';
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 8080;
 
 // Enable CORS for your frontend
 app.use(cors());
